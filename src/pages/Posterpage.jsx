@@ -76,8 +76,8 @@ const Posterpage = () => {
       <div className="Our-memories" data-aos='zoom-in-up'>
         <h2>Our Memories</h2>
         <div className="wed_videos" data-aos='flip-down'>
-            <ReactPlayer 
-            url={'https://youtu.be/r4KBqiAnhNo?si=TCaf7Xvy9eJlhbIP'}
+            <ReactPlayer width={500}
+            url={'https://youtu.be/r4KBqiAnhNo?si=TCaf7Xvy9eJlhbIP'} 
             />
           
         </div>

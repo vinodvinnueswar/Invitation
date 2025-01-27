@@ -230,3 +230,1021 @@ margin-bottom: 20px;
   opacity: 0.3;
   color: rgb(6, 6, 134);
 }
+
+
+/* RESPONSIVE */
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic Keyframe Animation */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Header Animation */
+header {
+  animation: slideIn 1s ease-out;
+}
+
+/* Responsive Design */
+
+@media (max-width: 480px) { /* Mobile */
+  *{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body{
+    margin: 0;
+    padding: 0px;
+  }
+  .Invite{
+    /* height: 100%;
+    width: 480px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6),rgba(0,0,0,0.4)) ,url("./images/wed_bac.jpeg" ) ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Invitation section */
+  .invite-section{
+    height: 100%;
+    width: 480px;
+    background: rgb(250,205,144);
+   background: radial-gradient(circle, rgba(250,205,144,0.8814119397759104) 0%, rgb(249, 242, 228) 88%, rgba(255,255,255,0.9794511554621849) 98%, rgba(255,255,255,1) 100%);
+    box-shadow: 3px 3px 8px 5px wheat;
+  }
+  .title h2{
+    margin-top: 0px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+  }
+  .matter{
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 800px;
+    color: rgb(50, 48, 48);
+  
+  }
+  .matter p{
+    margin-top: 8px;
+    padding-right: 8px;
+    font-size: 25px;
+    color: rgb(199, 181, 181);
+  }
+  .Date_Time{
+    font-size: 10px;
+    padding-left: 2px;
+    color: rgb(116, 107, 107)
+  }
+  .Img img{
+    height: 250px;
+    width: 180px;
+  }
+  .Img {
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6),rgba(0,0,0,0.9)) ,url("./images/ba_Theme1.jpeg" ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Img p{
+    color: rgb(217, 187, 187);
+    font-size: 20px;
+  }
+  
+  /*content */
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 40px 0px;
+  }
+  .content h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  .content p{
+    color: gray;
+    font-size: 20px;
+  }
+  .Bride{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .Bride-Img img{
+    height: 320px;
+    width: 250px;
+    padding-left: 25px;
+  
+  }
+  .Bride-details{
+  margin-bottom: 20px;
+  }
+  .Bride-details p{
+    margin-top: 10px;
+    padding-right: 5px;
+    font-size: 12px;
+    color: rgb(69, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .Bride-li{
+    margin-top: 20px;
+  }
+  
+  /*  Groom  */
+  .Groom{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .Groom-Img img{
+    height: 320px;
+    width: 230px;
+    padding-right: 10px;
+  
+  }
+  .Groom-details{
+  margin-bottom: 20px;
+  }
+  .Groom-details p{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+    color: rgb(69, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .Groom-li{
+    margin-top: 20px;
+  }
+  .Our-memories{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+  }
+  .Our-memories h2{
+    font-size: 35px;
+  }
+  
+  /* Wed Videos */
+  
+  .wed_videos{
+    margin-top: 25px;
+  }
+ 
+
+
+  /* details */
+  .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .details h2{
+    font-size: 35px;
+  }
+  .time{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+  }
+  .time p{
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  
+  /* lunch */
+  .lunch{
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  
+  /*location */
+  .location{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .location h2{
+    font-size: 35px;
+  }
+  .map{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 2px 3px white;
+  }
+  .button{
+    padding: 20px;
+    margin-top: 8px;
+    background-color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 9px 0px gray;
+    cursor: pointer;
+  }
+  .button a{
+    color: black;
+  }
+  .button a:hover{
+    opacity: 0.3;
+    color: rgb(6, 6, 134);
+  }
+  
+
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) { /* Tablet */
+  *{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body{
+    margin: 0;
+    padding: 0px;
+  }
+  .Invite{
+    padding-left: 0px;
+    padding-right: 0px;
+    /* height: 100%;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: antiquewhite; */
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6),rgba(0,0,0,0.4)) ,url("./images/wed_bac.jpeg" ) ; */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+  }
+  /* Invitation section */
+  .invite-section{
+    height: 100%;
+    width: 100%;
+    background: rgb(250,205,144);
+   background: radial-gradient(circle, rgba(250,205,144,0.8814119397759104) 0%, rgb(249, 242, 228) 88%, rgba(255,255,255,0.9794511554621849) 98%, rgba(255,255,255,1) 100%);
+    box-shadow: 3px 3px 8px 5px wheat;
+  }
+  .title h2{
+    margin-top: 0px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+  }
+  .matter{
+    margin-top: 10px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 800px;
+    color: rgb(50, 48, 48);
+  
+  }
+  .matter p{
+    margin-top: 8px;
+    padding-right: 8px;
+    font-size: 25px;
+    color: rgb(199, 181, 181);
+  }
+  .Date_Time{
+    font-size: 10px;
+    padding-left: 2px;
+    color: rgb(116, 107, 107)
+  }
+  .Img img{
+    height: 250px;
+    width: 180px;
+  }
+  .Img {
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6),rgba(0,0,0,0.9)) ,url("./images/ba_Theme1.jpeg" ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Img p{
+    color: rgb(217, 187, 187);
+    font-size: 20px;
+  }
+  
+  /*content */
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 40px 0px;
+  }
+  .content h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  .content p{
+    color: gray;
+    font-size: 20px;
+  }
+  .Bride{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .Bride-Img img{
+    height: 320px;
+    width: 250px;
+    padding-left: 25px;
+  
+  }
+  .Bride-details{
+  margin-bottom: 20px;
+  }
+  .Bride-details p{
+    margin-top: 10px;
+    padding-right: 5px;
+    font-size: 12px;
+    color: rgb(69, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .Bride-li{
+    margin-top: 20px;
+  }
+  
+  /*  Groom  */
+  .Groom{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .Groom-Img img{
+    height: 320px;
+    width: 230px;
+    padding-right: 10px;
+  
+  }
+  .Groom-details{
+  margin-bottom: 20px;
+  }
+  .Groom-details p{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+    color: rgb(69, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .Groom-li{
+    margin-top: 20px;
+  }
+  .Our-memories{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+  }
+  .Our-memories h2{
+    font-size: 35px;
+  }
+  
+  /* Wed Videos */
+  
+  .wed_videos{
+    margin-top: 25px;
+  }
+ 
+
+
+  /* details */
+  .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .details h2{
+    font-size: 35px;
+  }
+  .time{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+  }
+  .time p{
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  
+  /* lunch */
+  .lunch{
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  
+  /*location */
+  .location{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .location h2{
+    font-size: 35px;
+  }
+  .map{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 2px 3px white;
+  }
+  .button{
+    padding: 20px;
+    margin-top: 8px;
+    background-color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 9px 0px gray;
+    cursor: pointer;
+  }
+  .button a{
+    color: black;
+  }
+  .button a:hover{
+    opacity: 0.3;
+    color: rgb(6, 6, 134);
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) { /* Laptop */
+  *{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body{
+    margin: 0;
+    padding: 0px;
+  }
+  .Invite{
+    /* height: 100%;
+    width: 100%; */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: antiquewhite;
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6),rgba(0,0,0,0.4)) ,url("./images/wed_bac.jpeg" ) ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Invitation section */
+  .invite-section{
+    height: 100%;
+    width: 100%;
+    background: rgb(250,205,144);
+   background: radial-gradient(circle, rgba(250,205,144,0.8814119397759104) 0%, rgb(249, 242, 228) 88%, rgba(255,255,255,0.9794511554621849) 98%, rgba(255,255,255,1) 100%);
+    box-shadow: 3px 3px 8px 5px wheat;
+  }
+  .title h2{
+    margin-top: 0px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+  }
+  .matter{
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 800px;
+    color: rgb(50, 48, 48);
+  
+  }
+  .matter p{
+    margin-top: 8px;
+    padding-right: 8px;
+    font-size: 25px;
+    color: rgb(199, 181, 181);
+  }
+  .Date_Time{
+    font-size: 10px;
+    padding-left: 2px;
+    color: rgb(116, 107, 107)
+  }
+  .Img img{
+    height: 250px;
+    width: 180px;
+  }
+  .Img {
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6),rgba(0,0,0,0.9)) ,url("./images/ba_Theme1.jpeg" ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Img p{
+    color: rgb(217, 187, 187);
+    font-size: 20px;
+  }
+  
+  /*content */
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 40px 0px;
+  }
+  .content h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  .content p{
+    color: gray;
+    font-size: 20px;
+  }
+  .Bride{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .Bride-Img img{
+    height: 320px;
+    width: 250px;
+    padding-left: 25px;
+  
+  }
+  .Bride-details{
+  margin-bottom: 20px;
+  }
+  .Bride-details p{
+    margin-top: 10px;
+    padding-right: 5px;
+    font-size: 12px;
+    color: rgb(69, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .Bride-li{
+    margin-top: 20px;
+  }
+  
+  /*  Groom  */
+  .Groom{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .Groom-Img img{
+    height: 320px;
+    width: 230px;
+    padding-right: 10px;
+  
+  }
+  .Groom-details{
+  margin-bottom: 20px;
+  }
+  .Groom-details p{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+    color: rgb(69, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .Groom-li{
+    margin-top: 20px;
+  }
+  .Our-memories{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+  }
+  .Our-memories h2{
+    font-size: 35px;
+  }
+  
+  /* Wed Videos */
+  
+  .wed_videos{
+    margin-top: 25px;
+  }
+ 
+
+
+  /* details */
+  .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .details h2{
+    font-size: 35px;
+  }
+  .time{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+  }
+  .time p{
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  
+  /* lunch */
+  .lunch{
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  
+  /*location */
+  .location{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .location h2{
+    font-size: 35px;
+  }
+  .map{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 2px 3px white;
+  }
+  .button{
+    padding: 20px;
+    margin-top: 8px;
+    background-color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 9px 0px gray;
+    cursor: pointer;
+  }
+  .button a{
+    color: black;
+  }
+  .button a:hover{
+    opacity: 0.3;
+    color: rgb(6, 6, 134);
+  }
+  
+
+}
+
+@media (min-width: 1025px) { /* Desktop */
+  *{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body{
+    margin: 0;
+    padding: 0px;
+  }
+  .Invite{
+    height: 100%;
+    width: 85%;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: antiquewhite;
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6),rgba(0,0,0,0.4)) ,url("./images/wed_bac.jpeg" ) ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Invitation section */
+  .invite-section{
+    height: 100%;
+    width: 100%;
+    background: rgb(250,205,144);
+   background: radial-gradient(circle, rgba(250,205,144,0.8814119397759104) 0%, rgb(249, 242, 228) 88%, rgba(255,255,255,0.9794511554621849) 98%, rgba(255,255,255,1) 100%);
+    box-shadow: 3px 3px 8px 5px wheat;
+  }
+  .title h2{
+    margin-top: 0px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+  }
+  .matter{
+    margin-top: 30px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: 800px;
+    color: rgb(50, 48, 48);
+  
+  }
+  .matter p{
+    margin-top: 8px;
+    padding-right: 8px;
+    font-size: 25px;
+    color: rgb(199, 181, 181);
+  }
+  .Date_Time{
+    font-size: 10px;
+    padding-left: 2px;
+    color: rgb(116, 107, 107)
+  }
+  .Img img{
+    height: 250px;
+    width: 180px;
+  }
+  .Img {
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6),rgba(0,0,0,0.9)) ,url("./images/ba_Theme1.jpeg" ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Img p{
+    color: rgb(217, 187, 187);
+    font-size: 20px;
+  }
+  
+  /*content */
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    padding: 40px 0px;
+  }
+  .content h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  .content p{
+    color: gray;
+    font-size: 20px;
+  }
+  .Bride{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .Bride-Img img{
+    height: 320px;
+    width: 250px;
+    padding-left: 25px;
+  
+  }
+  .Bride-details{
+  margin-bottom: 20px;
+  }
+  .Bride-details p{
+    margin-top: 10px;
+    padding-right: 5px;
+    font-size: 12px;
+    color: rgb(69, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .Bride-li{
+    margin-top: 20px;
+  }
+  
+  /*  Groom  */
+  .Groom{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .Groom-Img img{
+    height: 320px;
+    width: 230px;
+    padding-right: 10px;
+  
+  }
+  .Groom-details{
+  margin-bottom: 20px;
+  }
+  .Groom-details p{
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+    color: rgb(69, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .Groom-li{
+    margin-top: 20px;
+  }
+  .Our-memories{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+  }
+  .Our-memories h2{
+    font-size: 35px;
+  }
+  
+  /* Wed Videos */
+  
+  .wed_videos{
+    margin-top: 25px;
+  }
+ 
+
+
+  /* details */
+  .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .details h2{
+    font-size: 35px;
+  }
+  .time{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 20px;
+  }
+  .time p{
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  
+  /* lunch */
+  .lunch{
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  
+  /*location */
+  .location{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .location h2{
+    font-size: 35px;
+  }
+  .map{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 2px 3px white;
+  }
+  .button{
+    padding: 20px;
+    margin-top: 8px;
+    background-color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 9px 0px gray;
+    cursor: pointer;
+  }
+  .button a{
+    color: black;
+  }
+  .button a:hover{
+    opacity: 0.3;
+    color: rgb(6, 6, 134);
+  }
+
+  
+}
+
+/* Additional Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
