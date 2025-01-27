@@ -1,0 +1,232 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  margin: 0;
+  padding: 0px;
+}
+/* Invitation section */
+.Invite{
+  height: 100%;
+  padding-left: 300px;
+  padding-right: 300px;
+  background-color: antiquewhite;
+  /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6),rgba(0,0,0,0.4)) ,url("./images/wed_bac.jpeg" ) ; */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.invite-section{
+  background: rgb(250,205,144);
+ background: radial-gradient(circle, rgba(250,205,144,0.8814119397759104) 0%, rgb(249, 242, 228) 88%, rgba(255,255,255,0.9794511554621849) 98%, rgba(255,255,255,1) 100%);
+  box-shadow: 3px 3px 8px 5px wheat;
+}
+.title h2{
+  margin-top: 0px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  
+}
+.matter{
+  margin-top: 60px;
+  padding-left: 40px;
+  font-size: 30px;
+  font-weight: 800px;
+  color: rgb(50, 48, 48);
+
+}
+.matter p{
+  margin-top: 8px;
+  padding-right: 8px;
+  font-size: 60px;
+  color: rgb(199, 181, 181);
+}
+.Date_Time{
+  font-size: 20px;
+  padding-left: 8px;
+  color: rgb(116, 107, 107)
+}
+.Img img{
+  height: 400px;
+  width: 300px;
+}
+.Img {
+  height: 450px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 30px;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6),rgba(0,0,0,0.9)) ,url("./images/ba_Theme1.jpeg" ) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Img p{
+  color: rgb(217, 187, 187);
+  font-size: 40px;
+}
+
+/*content */
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 40px 0px;
+}
+.content h2{
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.content p{
+  color: gray;
+  font-size: 25px;
+}
+.Bride{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.Bride-Img img{
+  height: 400px;
+  width: 300px;
+  padding-left: 25px;
+
+}
+.Bride-details{
+margin-bottom: 20px;
+}
+.Bride-details p{
+  margin-top: 10px;
+  padding-right: 40px;
+  font-size: 20px;
+  color: rgb(69, 63, 63);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Bride-li{
+  margin-top: 50px;
+}
+
+/*  Groom  */
+.Groom{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.Groom-Img img{
+  height: 400px;
+  width: 300px;
+  padding-right: 25px;
+
+}
+.Groom-details{
+margin-bottom: 20px;
+}
+.Groom-details p{
+  margin-top: 10px;
+  padding-left: 40px;
+  font-size: 20px;
+  color: rgb(69, 63, 63);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Groom-li{
+  margin-top: 50px;
+}
+.Our-memories{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  
+}
+.Our-memories h2{
+  font-size: 40px;
+}
+
+/* Wed Videos */
+
+.wed_videos{
+  margin-top: 25px;
+
+}
+/* details */
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.details h2{
+  font-size: 40px;
+}
+.time{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 20px;
+}
+.time p{
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+/* lunch */
+.lunch{
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+/*location */
+.location{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.location h2{
+  font-size: 40px;
+}
+.map{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 2px 2px 3px white;
+}
+.button{
+  padding: 20px;
+  margin-top: 8px;
+  background-color: white;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 9px 0px gray;
+  cursor: pointer;
+}
+.button a{
+  color: black;
+}
+.button a:hover{
+  opacity: 0.3;
+  color: rgb(6, 6, 134);
+}
